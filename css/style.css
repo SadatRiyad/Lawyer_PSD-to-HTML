@@ -1,0 +1,487 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 16px;
+    line-height: 1.7em;                                           
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;                                              
+}
+a, a:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* global css start */
+.title-1{
+    width: 100%;
+    margin: 30px 0px 30px;
+}
+.title-1 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing:1px;
+    color: #293564;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.title-1 p{
+    font-family: 'Open Sans', sans-serif;  
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing:.9px;
+    color: #bab9ba;
+    margin: 5px 15px 25px 0px
+}
+.title-1 .btn-primary{
+    margin: 25px 10px 25px 0px;
+    width: 149px;
+    height: 49px;
+    font-size: 16px;
+    line-height: 1.7em;
+    text-align: center;
+    padding: 10px 10px;
+    background: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6;
+    transition: .75s;
+}
+.title-1 .btn-primary:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #999;
+}
+.title-1 .btn-primary:focus{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #999;
+}
+/* Global css end */
+
+/* header start */
+.header{
+    margin: 25px 0px;
+    width: 100%;
+}
+/* navbar start */
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #293564;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 15px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #f2622b;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+    color: #f2622b;
+}
+/* navbar end */
+.inner-header{
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 15px;
+    background: url(../image/Home.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.inner-header p{
+    padding: 90px 0px 100px;
+    font-size: 86px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color:#fff ;
+}
+.inner-header .d-1{
+    margin-top: 20px 0px 20px;
+    background-position: bottom;
+    background-size: auto;
+    transition: .55s;
+}
+.inner-header .d-1:hover{
+    translate: 0px 5px 0px;
+    transform: scale(1.15);
+}
+/* header end */
+
+/* who-we section start */
+.who-we{
+    width: 100%;
+    background: #fff;
+    padding: 80px 0px 90px;
+}
+.who-we .title-1 h2{
+    color: #293564;
+    text-transform: uppercase;
+    margin:0px 0px 25px;
+}
+.title-1 p{
+    font-family: 'Open Sans', sans-serif;  
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing:.9px;
+    color: #bab9ba;
+    margin: 5px 15px 25px 0px
+}
+.who-we .d-3a{
+    text-align: center;
+}
+.who-we .d-3{
+    width: fit-content;
+    margin: 30px 0px 0px 0px;
+    padding: 20px;
+    transition: .6s;
+    background-position: center;
+}
+.who-we .d-3:hover{
+    transform: scale(1.05);
+}
+.who-we .d-3:focus{
+    transform: scale(1.05);
+}
+.who-we .title-1 .title-line{
+    margin: 22px 0px 22px;
+}
+/* who-we section end */
+
+/* what-we-do section start*/
+.what-we{
+    width: 100%;
+    padding: 70px 0px 80px;
+    background: url(../image/a0.png) center top no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.what-we .inner-what{
+    width: 100%;
+    text-align: center;
+}
+.what-we .inner-what .title-1 h2{
+    margin: 15px 0px 70px;
+}
+.what-we .inner-what .img-box{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+.what-we .inner-what .img-box .a-1{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.what-we .inner-what .overlay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(60, 57, 121, 0.37);
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: 0.75s ease;
+}
+.what-we .inner-what .img-box:hover .overlay{
+    height: 100%;
+}
+.what-we .inner-what .img-box:hover{
+    box-shadow: 5px 7px 15px rgba(64, 60, 131, 0.7);
+}
+.what-we .inner-what .overlay h5{ 
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin: -50px 0px;
+    padding: 0px 35px;
+}
+.what-we .inner-what .overlay .ra{
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    bottom: 13%;
+    left: 0;
+    transition: .2s;
+}
+.what-we .inner-what .overlay .ra:hover{
+    transform: scale(1.1);
+}
+/* what-we-do section end*/
+
+/* OUR ATTORNEYS section start */
+.our-a{
+    width: 100%;
+    padding: 90px 0px;
+    background: url(../image/b0.png) center top no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.our-a .inner-our{
+    width: 100%;
+    margin: 90px 0px 0px;
+}
+.our-a .inner-our h2{
+    width: 100%;
+    font-size: 38px;
+    line-height: 1.3em;
+    color: #fff;
+    margin:15px 0px 25px;
+}
+.our-a .inner-our p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.7em;
+    letter-spacing:.3px;
+    color: #747cb1;
+    margin: 5px 15px 25px 0px
+}
+.our-a .inner-our a{
+    text-decoration: none;
+    color: #f2622b;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.7em;
+    letter-spacing:.3px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    transition: .2s ;
+}
+.our-a .inner-our a:hover{
+    opacity: 0.99;
+    font-size: 17.1px;
+}
+
+.our-a .img-box{
+    position: relative;
+    margin: 25px 9px;
+    transition: .5s;
+}
+.our-a .img-box .a-1{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.our-a .overlay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(241, 90, 42, 0.11);
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: 0.75s ease;
+}
+.our-a .img-box:hover .overlay{
+    height: 20%;
+}
+.our-a .img-box:hover{
+    box-shadow: 3px 7px 17px rgba(241, 90, 42, 0.15);
+    transform: scale(1.0099);
+}
+.our-a .overlay h5{ 
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    text-transform: uppercase;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    padding: 1px 30px;
+    margin: -1px 0px 0px;
+}
+/* OUR ATTORNEYS section start */
+
+/* language section start */
+.language{
+    width: 100%;
+    padding: 70px 0px 80px;
+}
+.language .inner-language{
+    width: 100%;
+    text-align: center;
+}
+.language .inner-language .title-1 h2{
+    margin: 15px 0px 70px;
+    color: #28377e;
+}
+#product .inner-product{
+    width: 100%;
+}
+#product .inner-product .inner-box{
+    width: 100%;
+    margin: 11px;
+    padding: 25px;
+    display: block;
+    background: transparent;
+    transition: 0.3s;
+}
+#product .inner-product .inner-box:hover{
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
+}
+#product .inner-product .inner-box:focus{
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#product .inner-product .inner-box h5 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #28377e;
+    text-transform: uppercase;
+    margin: 10px 0px 15px;
+}
+#product .inner-product .inner-box p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999;
+    margin: 10px 10px 10px 0px;
+}
+#product .inner-product .inner-box a{
+    display: block;
+    text-decoration: none;
+    color: #f2622b;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.7em;
+    letter-spacing:.3px;
+    text-transform: uppercase;
+    margin: 20px 0px 0px;
+    opacity: 0.9;
+    transition: .2s ;
+}
+#product .inner-product .inner-box a:hover{
+    opacity: 0.99;
+    font-size: 17.1px;
+}
+/* language section end */
+
+
+/* contact section start */
+.contact{
+    width: 100%;
+    padding: 70px 0px 80px;
+    background: #28377e;
+    text-align: center;
+}
+.contact h2{
+    color: #fff;
+    margin: 15px 0px;
+}
+
+/* contact form start */
+.contact-form{
+    width: 100%;
+    margin: 40px 0px 10px;
+    background: transparent;
+    position: relative;
+}
+.contact-form .form{
+    font-size: 16px;
+    padding: 15px;
+    border: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.contact-form .form::placeholder{
+    color: #fff;
+}
+.contact .contact-form .form:focus{
+    border-bottom: 1.5px solid #f2622b !important;
+    background: transparent !important;
+    color: #f2622b;
+}
+.contact-form .title-1{
+    margin: 25px 0px;
+}
+.contact-form .btn-primary{
+    width: 30%;
+    height: auto;
+    border-radius: 1px;
+    margin: 0px;
+    font-weight: 700;
+    background: #f2622b;
+    border: 1px solid #f2622b;
+    transition: 1s;
+}
+.contact-form .btn-primary:hover{
+    background: transparent;
+    color: #f2622b;
+    border-color: #f2622b;
+    box-shadow:inset 0 0 0 0.1rem #f2622b;
+}
+.contact-form button, input, optgroup, select, textarea {
+    width: 100%;
+    background: transparent;
+    margin: 11px 0px !important;
+    font-family: sans-serif;
+    font-size: 16px !important;
+    line-height: 1.7em !important;
+    padding: 0px;
+}
+/* contact form end */
+/* contact section end */
+
+/* footer section start */
+.footer{
+    width: 100%;
+    padding: 25px;
+    background: #0c1234;
+    text-align: center;
+    color: #b1b7dd;
+    margin: 0px;
+}
+.footer .inner-footer .fa{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 20px 10px;
+    transition: .1s;
+}
+.footer .inner-footer .fa:hover{
+    color: #f2622b;
+}
+.footer .inner-footer p{
+    font-size: 16px;
+    margin: 20px 100px;
+    text-align: start;
+}
+.footer .inner-footer p a{
+    opacity: .8;
+    color:#fff ;
+    text-decoration: none;
+    transition: .3s;
+}
+.footer .inner-footer p a:hover{
+    opacity:.96;
+    font-size: 16.3px;
+    color: #f2622b;
+}
+/* footer section end */
